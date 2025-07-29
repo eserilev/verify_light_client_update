@@ -1,0 +1,28 @@
+{
+    "name": "light-client-ssz-decoder",
+    "version": "1.0.0",
+    "description": "Decode Light Client Updates using existing SSZ libraries",
+    "main": "chainsafe_ssz_decoder.js",
+    "type": "module",
+    "scripts": {
+      "start": "node chainsafe_ssz_decoder.js",
+      "test": "node chainsafe_ssz_decoder.js test_update.ssz",
+      "install-deps": "npm install @lodestar/types@1.11.0 @chainsafe/ssz"
+    },
+    "dependencies": {
+      "@lodestar/types": "^1.11.0",
+      "@chainsafe/ssz": "^0.14.0"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "keywords": [
+      "ethereum",
+      "ssz",
+      "light-client",
+      "chainsafe",
+      "lodestar"
+    ],
+    "author": "",
+    "license": "MIT"
+  }
